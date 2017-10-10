@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	     <meta charset="utf 8">
+	     <title>register</title>
+	</head>
+	<body>
+	     <form action="action_page.php">
+	     <h3>使用者註冊</h3>
+  	     <p><label>帳號   <textarea name="username" rows="1" cols="30">請輸入您的帳號</textarea></label></p>
+	     <p><label>密碼   <input name="code" type="password" size="30"></label></p>
+   	     <p><label>電子郵件<textarea name="mail" rows="1" cols="30">請輸入您的電子郵件</textarea></label></p>
+	     <p><label>生日<textarea name="mail" rows="1" cols="30">年/月/日</textarea></label></p>
+	     <p>
+		<label>性別</label>
+		<label>男<input name="gender" type="radio" value="men"></label>
+		<label>女<input name="gender" type="radio" value="women"></label>
+		<label>其他<input name="gender" type="radio" value="other"</label>
+	     </p>
+	     <p>
+		<label>喜好</label>
+		<label>打球<input name="hobby" type="checkbox" value="ball"></label>
+		<label>打電動<input name="hobby" type="checkbox" value="game"></label>
+		<label>購物<input name="hobby" type="checkbox" value="shopping"></label>
+		<label>其他<input name="hobby" type="checkbox" value="other"></label>
+    	     </p>
+	     <p>
+		<label>年級
+			<select name="grade">
+				<option selected></option>
+				<option>大一</option>
+				<option>大二</option>
+				<option>大三</option>
+				<option>大四</option>
+				<option>其他</option>
+			</select>
+		</label>
+	    </p>
+	    <p>
+		<input type="submit" value="送出" />
+		<input type="reset" value="重設" />
+	    </p>
+	</body>
+</html>
